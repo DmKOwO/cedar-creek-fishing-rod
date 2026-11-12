@@ -1,0 +1,164 @@
+# Спецификация 3D-модели Cedar Creek Fishing Rod (Blender)
+
+- **Формат файла**: Blender 5.2 (`Cedar_Creek_Fishing_Rod.blend`)
+- **Количество мешей**: 75
+- **Всего вершин**: 4000
+- **Всего полигонов (Faces)**: 3676
+- **Стиль**: Cozy Low-Poly / Stylized Hand-Crafted
+
+## Иерархия основных узлов и Rig
+
+- `Rig` (EMPTY)
+  - `Blank` (MESH) — 330 вершин, 322 полигонов
+  - `Crank` (EMPTY)
+    - `Crank hub` (MESH) — 48 вершин, 38 полигонов
+    - `Knob` (EMPTY)
+      - `Free-turn rubber knob` (MESH) — 40 вершин, 32 полигонов
+      - `HandContact` (EMPTY)
+      - `Knob bearing` (MESH) — 20 вершин, 12 полигонов
+      - `Knob end plug` (MESH) — 20 вершин, 12 полигонов
+    - `Offset crank arm` (MESH) — 16 вершин, 14 полигонов
+  - `Float` (EMPTY)
+    - `Float antenna` (MESH) — 32 вершин, 26 полигонов
+    - `Float shell` (MESH) — 98 вершин, 86 полигонов
+    - `FloatEye` (EMPTY)
+  - `Guide00` (EMPTY)
+    - `Binding 00` (MESH) — 40 вершин, 32 полигонов
+    - `Eye00` (EMPTY)
+    - `Guide foot` (MESH) — 24 вершин, 20 полигонов
+    - `Guide foot.001` (MESH) — 24 вершин, 20 полигонов
+    - `Guide ring` (MESH) — 60 вершин, 60 полигонов
+  - `Guide01` (EMPTY)
+    - `Binding 01` (MESH) — 40 вершин, 32 полигонов
+    - `Eye01` (EMPTY)
+    - `Guide foot.002` (MESH) — 24 вершин, 20 полигонов
+    - `Guide foot.003` (MESH) — 24 вершин, 20 полигонов
+    - `Guide ring.001` (MESH) — 60 вершин, 60 полигонов
+  - `Guide02` (EMPTY)
+    - `Binding 02` (MESH) — 40 вершин, 32 полигонов
+    - `Eye02` (EMPTY)
+    - `Guide foot.004` (MESH) — 24 вершин, 20 полигонов
+    - `Guide foot.005` (MESH) — 24 вершин, 20 полигонов
+    - `Guide ring.002` (MESH) — 60 вершин, 60 полигонов
+  - `Guide03` (EMPTY)
+    - `Binding 03` (MESH) — 40 вершин, 32 полигонов
+    - `Eye03` (EMPTY)
+    - `Guide foot.006` (MESH) — 24 вершин, 20 полигонов
+    - `Guide foot.007` (MESH) — 24 вершин, 20 полигонов
+    - `Guide ring.003` (MESH) — 60 вершин, 60 полигонов
+  - `Guide04` (EMPTY)
+    - `Binding 04` (MESH) — 40 вершин, 32 полигонов
+    - `Eye04` (EMPTY)
+    - `Guide foot.008` (MESH) — 24 вершин, 20 полигонов
+    - `Guide foot.009` (MESH) — 24 вершин, 20 полигонов
+    - `Guide ring.004` (MESH) — 60 вершин, 60 полигонов
+  - `Guide05` (EMPTY)
+    - `Binding 05` (MESH) — 40 вершин, 32 полигонов
+    - `Eye05` (EMPTY)
+    - `Guide foot.010` (MESH) — 24 вершин, 20 полигонов
+    - `Guide foot.011` (MESH) — 24 вершин, 20 полигонов
+    - `Guide ring.005` (MESH) — 60 вершин, 60 полигонов
+  - `Guide06` (EMPTY)
+    - `Binding 06` (MESH) — 40 вершин, 32 полигонов
+    - `Eye06` (EMPTY)
+    - `Guide foot.012` (MESH) — 24 вершин, 20 полигонов
+    - `Guide foot.013` (MESH) — 24 вершин, 20 полигонов
+    - `Guide ring.006` (MESH) — 60 вершин, 60 полигонов
+  - `Guide07` (EMPTY)
+    - `Binding 07` (MESH) — 40 вершин, 32 полигонов
+    - `Eye07` (EMPTY)
+    - `Guide foot.014` (MESH) — 24 вершин, 20 полигонов
+    - `Guide foot.015` (MESH) — 24 вершин, 20 полигонов
+    - `Guide ring.007` (MESH) — 60 вершин, 60 полигонов
+  - `Hands` (EMPTY)
+    - `LeftHand` (EMPTY)
+      - `LeftHandSleeve` (EMPTY)
+        - `Knit sleeve.001` (MESH) — 84 вершин, 74 полигонов
+      - `Round mitten.001` (MESH) — 114 вершин, 128 полигонов
+    - `RightHand` (EMPTY)
+      - `RightHandSleeve` (EMPTY)
+        - `Knit sleeve` (MESH) — 84 вершин, 74 полигонов
+      - `Round mitten` (MESH) — 114 вершин, 128 полигонов
+  - `LevelWind` (EMPTY)
+    - `LineEye` (EMPTY)
+    - `Traveller eye` (MESH) — 50 вершин, 50 полигонов
+    - `Traveller shoe` (MESH) — 24 вершин, 26 полигонов
+  - `ReelBody` (EMPTY)
+    - `Drag star` (MESH) — 40 вершин, 22 полигонов
+    - `End cap` (MESH) — 40 вершин, 32 полигонов
+    - `End cap brass inset` (MESH) — 20 вершин, 12 полигонов
+    - `Fore grip` (MESH) — 40 вершин, 32 полигонов
+    - `Left bearing cap` (MESH) — 24 вершин, 14 полигонов
+    - `Left fastener` (MESH) — 12 вершин, 8 полигонов
+    - `Left fastener.001` (MESH) — 12 вершин, 8 полигонов
+    - `Left fastener.002` (MESH) — 12 вершин, 8 полигонов
+    - `Left side plate` (MESH) — 56 вершин, 44 полигонов
+    - `Lower bridge` (MESH) — 40 вершин, 32 полигонов
+    - `Lower front frame` (MESH) — 40 вершин, 32 полигонов
+    - `Reel mounting foot` (MESH) — 24 вершин, 26 полигонов
+    - `Reel seat` (MESH) — 24 вершин, 26 полигонов
+    - `Reel seat back` (MESH) — 40 вершин, 32 полигонов
+    - `Reel seat front` (MESH) — 40 вершин, 32 полигонов
+    - `Right bearing cap` (MESH) — 24 вершин, 14 полигонов
+    - `Right fastener` (MESH) — 12 вершин, 8 полигонов
+    - `Right fastener.001` (MESH) — 12 вершин, 8 полигонов
+    - `Right fastener.002` (MESH) — 12 вершин, 8 полигонов
+    - `Right side plate` (MESH) — 56 вершин, 44 полигонов
+    - `Thumb bar` (MESH) — 24 вершин, 26 полигонов
+    - `Traverse rail` (MESH) — 40 вершин, 32 полигонов
+    - `Upper bridge` (MESH) — 40 вершин, 32 полигонов
+    - `Walnut handle` (MESH) — 70 вершин, 62 полигонов
+  - `Spool` (EMPTY)
+    - `LinePack` (EMPTY)
+      - `Wound line` (MESH) — 518 вершин, 506 полигонов
+    - `Spool flanges` (MESH) — 128 вершин, 114 полигонов
+    - `Spool index` (MESH) — 114 вершин, 128 полигонов
+    - `Spool index.001` (MESH) — 114 вершин, 128 полигонов
+    - `Spool index.002` (MESH) — 114 вершин, 128 полигонов
+
+## Материалы и палитра
+
+- **Apricot mitten**
+  - Base Color (RGB): `[0.784, 0.474, 0.328]`
+- **Blank vertex tint**
+  - Base Color (RGB): `[1.0, 1.0, 1.0]`
+- **Brass**
+  - Base Color (RGB): `[0.694, 0.376, 0.102]`
+- **Ceramic insert**
+  - Base Color (RGB): `[0.644, 0.558, 0.434]`
+- **Charcoal enamel**
+  - Base Color (RGB): `[0.1, 0.089, 0.112]`
+- **Crank grip**
+  - Base Color (RGB): `[0.042, 0.027, 0.034]`
+- **Dark bronze**
+  - Base Color (RGB): `[0.061, 0.034, 0.042]`
+- **Float • ivory**
+  - Base Color (RGB): `[0.947, 0.776, 0.546]`
+- **Float • terracotta**
+  - Base Color (RGB): `[0.708, 0.074, 0.044]`
+- **Line winding 0**
+  - Base Color (RGB): `[0.847, 0.521, 0.093]`
+- **Line winding 1**
+  - Base Color (RGB): `[0.791, 0.418, 0.067]`
+- **Line winding 2**
+  - Base Color (RGB): `[0.913, 0.604, 0.141]`
+- **Material**
+  - Base Color (RGB): `[0.8, 0.8, 0.8]`
+- **Oat knit**
+  - Base Color (RGB): `[0.784, 0.591, 0.352]`
+- **Polished chamfer**
+  - Base Color (RGB): `[0.565, 0.485, 0.509]`
+- **Ribbed cuff**
+  - Base Color (RGB): `[0.558, 0.392, 0.227]`
+- **Sage stripe**
+  - Base Color (RGB): `[0.227, 0.258, 0.125]`
+- **Satin nickel**
+  - Base Color (RGB): `[0.381, 0.323, 0.386]`
+- **Spool index**
+  - Base Color (RGB): `[0.328, 0.13, 0.036]`
+- **Walnut • Dark grain**
+  - Base Color (RGB): `[0.056, 0.024, 0.019]`
+- **Walnut • Grip**
+  - Base Color (RGB): `[0.091, 0.034, 0.02]`
+- **Walnut • Warm grain**
+  - Base Color (RGB): `[0.162, 0.061, 0.032]`
